@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hybridapp"
+    }
+  },
+  "defaultProject": "hybridapp",
+  "cli": {
+    "analytics": "f1b753a8-9a1e-4984-990e-6d7e9eb4da61"
+  }
 }
