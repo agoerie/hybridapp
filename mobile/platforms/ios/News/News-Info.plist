@@ -9,7 +9,7 @@
     <key>provisioningProfiles</key>
     <dict>
         <key>com.muslih.news</key>
-        <string>Ad Hoc Devops Test</string>
+        <string>Ad_Hoc_Devops_Test</string>
     </dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
