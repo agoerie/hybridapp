@@ -257,8 +257,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 5EZN9MNNQ6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -330,7 +329,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/News/Scripts/copy-www-build-step.sh\"";
+			shellScript = "\"$SRCROOT/News/Scripts/copy-www-build-step.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6513F92C384993A56A3B528 /* [CP] Check Pods Manifest.lock */ = {
@@ -394,8 +393,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5EZN9MNNQ6;
+				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -407,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.muslih.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -421,6 +422,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Apple Distribution: Rahmat Hidayat (5EZN9MNNQ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Rahmat Hidayat (5EZN9MNNQ6)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 5EZN9MNNQ6;
