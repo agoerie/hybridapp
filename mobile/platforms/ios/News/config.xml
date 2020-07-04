@@ -61,4 +61,5 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="APP_SECRET" value="9a6edd21-2c0d-4bb0-80cc-faa5a383af8d" />
 </widget>

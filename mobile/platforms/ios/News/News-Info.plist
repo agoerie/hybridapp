@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>method</key>
-    <string>ad-hoc</string>
-    <key>compileBitcode</key>
-    <false/>
-    <key>provisioningProfiles</key>
-    <dict>
-        <key>com.muslih.news</key>
-        <string>Ad_Hoc_Devops_Test</string>
-    </dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>compileBitcode</key>
+	<false/>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.muslih.news</key>
+		<string>Ad_Hoc_Devops_Test</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
