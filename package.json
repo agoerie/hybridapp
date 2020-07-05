@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "angular:build": "ng build --prod",
+    "mobile:build": "ng build --prod --base-href . --output-path mobile/www/"
   },
   "private": true,
   "dependencies": {
