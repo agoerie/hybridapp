@@ -1,0 +1,19 @@
+<div class="pt-3 pl-4" *ngIf="news">
+  <h5 class="text-center">{{ news.title }} Adalah Favoritku</h5>
+  <div class="form-group row">
+    <span>ID</span>
+    <div class="col-6 col-sm-9">
+      <p class="font-weight-bold">{{ news.id }}</p>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label>Name</label>
+    <div class="col">
+      <input
+        class="form-control"
+        [(ngModel)]="news.title"
+        placeholder="title"
+      />
+    </div>
+  </div>
+</div>

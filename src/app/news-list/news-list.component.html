@@ -12,25 +12,5 @@
     </li>
   </ul>
 
-  <div class="pt-3 pl-4" *ngIf="selectedNews">
-    <h5 class="text-center">
-      {{ selectedNews.title | uppercase }} Adalah Favoritku
-    </h5>
-    <div class="form-group row">
-      <span>ID</span>
-      <div class="col-6 col-sm-9">
-        <p class="font-weight-bold">{{ selectedNews.id }}</p>
-      </div>
-    </div>
-    <div class="form-group row">
-      <label>Name</label>
-      <div class="col">
-        <input
-          class="form-control"
-          [(ngModel)]="selectedNews.title"
-          placeholder="title"
-        />
-      </div>
-    </div>
-  </div>
+  <app-news-detail [news]="selectedNews"></app-news-detail>
 </div>
